@@ -5,9 +5,9 @@ GO
 CREATE DATABASE [ClimaTempoSimples]
  CONTAINMENT = NONE
  ON  PRIMARY 
-( NAME = N'ClimaTempoSimples', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\ClimaTempoSimples.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+( NAME = N'ClimaTempoSimples', FILENAME = N'/var/opt/mssql/data/ClimaTempoSimples.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
  LOG ON 
-( NAME = N'ClimaTempoSimples_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\ClimaTempoSimples_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+( NAME = N'ClimaTempoSimples_log', FILENAME = N'/var/opt/mssql/data/ClimaTempoSimples_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
  WITH CATALOG_COLLATION = DATABASE_DEFAULT
 GO
 
